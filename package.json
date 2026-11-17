@@ -1,0 +1,15 @@
+{
+  "name": "typetasks",
+  "version": "1.0.0",
+  "description": "TypeTasks Part 1: a type-safe task model in TypeScript",
+  "type": "module",
+  "main": "dist/model.js",
+  "scripts": {
+    "build": "tsc",
+    "demo": "tsc && node dist/demo.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
